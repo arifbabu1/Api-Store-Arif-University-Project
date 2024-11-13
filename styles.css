@@ -113,16 +113,13 @@ p {
 }
 
 
-
-
-
 .product-card {
   background-color: transparent;
-  border: 2px solid #bdbcbc;
+  border: 2px solid #818181;
   border-radius: 10px;
   /* padding: 5px; */
   width: 25vw;
-  margin: 0px 5px;
+  margin: 5px 5px;
   text-align: center;
   border-bottom: 20px;
   box-shadow: #404040 0px 5px 10px;
@@ -131,18 +128,24 @@ p {
 .product-card img {
   width: 80%;
   border-radius: 15px;
+  margin-top: 1vh;
 }
 
 .product-card h3 {
   font-size: 1em;
-  margin: .5vw 0;
+  margin: .2vw 0;
+}
+.product-card p{
+  margin: 1px 0px;
 }
 .product-card span {
   font-size: .8em;
+  margin-bottom: .5vh;
 }
 .product-card button {
   font-size: .8em;
   border-radius: 3px;
+  margin-bottom: .5vh;
 }
 footer {
   background-color: #c2c2c2;
