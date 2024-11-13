@@ -54,20 +54,18 @@ p {
   display: flex;
   /* width: 100vw; */
   /* margin: 0 20vw; */
-  padding: 0 10vw;
+  padding: 0 7vw;
   text-align: center;
   justify-content: center;
   align-items: center;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
 }
 
 .images-section img {
   width: 95%;
-  
-  
-  border-radius: 15px;
-  box-shadow: #3a3a3a 0px 7px 10px;
+  border-radius: 10px;
+  /* box-shadow: #3a3a3a 0px 7px 10px; */
 }
 
 /* .images-section .midle{
